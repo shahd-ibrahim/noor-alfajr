@@ -56,9 +56,13 @@
   <header class="glass-header border-b border-slate-200 sticky top-0 z-40 shadow-sm">
     <div class="max-w-6xl mx-auto px-4 py-2.5 flex items-center justify-between">
       
-      <!-- Logo Branding -->
+      <!-- Brand Logo in Header -->
       <a href="#" class="flex items-center gap-3">
-        <img src="logo.png" alt="نور الفجر للخدمات" class="h-11 sm:h-14 w-auto object-contain">
+        <img src="logo.png" alt="شعار نور الفجر للخدمات" class="h-10 sm:h-12 w-auto object-contain">
+        <div class="hidden sm:block border-r border-slate-200 pr-3">
+          <span class="font-black text-lg text-slate-900 block leading-tight">نور الفجر</span>
+          <span class="text-[11px] text-emerald-700 font-bold">للخدمات والوساطة التمويلية</span>
+        </div>
       </a>
 
       <nav class="hidden md:flex items-center gap-6 text-sm font-bold text-slate-600">
@@ -68,7 +72,7 @@
         <a href="#faq" class="hover:text-emerald-600 transition">الأسئلة الشائعة</a>
       </nav>
 
-      <a href="https://wa.me/966590208280?text=السلام%20عليكم،%20أرغب%20في%20الاستفسار%20عن%20تمويل%20بدون%20كفيل%20من%20نور%20الفجر" 
+      <a href="https://wa.me/966595825390?text=السلام%20عليكم،%20أرغب%20في%20الاستفسار%20عن%20تمويل%20بدون%20كفيل%20من%20نور%20الفجر" 
          onclick="trackLead('header_cta_whatsapp')"
          class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-black text-xs sm:text-sm px-4 sm:px-5 py-2.5 rounded-xl shadow-md shadow-emerald-600/20 active:scale-95 transition">
         <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
@@ -78,14 +82,15 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="max-w-6xl mx-auto px-4 pt-10 pb-16">
+  <section class="max-w-6xl mx-auto px-4 pt-8 pb-16">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
       
       <!-- Right Content Column -->
-      <div class="lg:col-span-7 space-y-6 text-center lg:text-right">
-        <div class="inline-flex items-center gap-2 bg-emerald-50 border border-emerald-200 px-4 py-1.5 rounded-full text-xs font-bold text-emerald-800">
-          <span>✨</span>
-          <span>خدمات تمويلية سريعة وميسرة لكافة مدن المملكة</span>
+      <div class="lg:col-span-7 space-y-5 text-center lg:text-right">
+        
+        <div class="inline-flex items-center gap-3 bg-white border border-slate-200 px-4 py-2 rounded-2xl shadow-sm">
+          <img src="logo.png" alt="نور الفجر" class="h-8 w-auto object-contain">
+          <span class="text-xs font-bold text-slate-700">حلول ووساطة تمويلية معتمدة بالمملكة</span>
         </div>
 
         <h1 class="text-3xl sm:text-5xl font-black text-slate-900 leading-tight tracking-tight">
@@ -97,7 +102,7 @@
           نساعدك في نور الفجر للخدمات على إيجاد أفضل الحلول المناسبة لالتزاماتك وراتبك الشهري بأقساط مرنة، وبدون الحاجة لوجود كفيل غارم أو دفع مبالغ مقدمة.
         </p>
 
-        <!-- Fast Feature Checklist -->
+        <!-- Feature Checklist -->
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs font-bold text-slate-700">
           <div class="flex items-center gap-2 bg-white p-3 rounded-xl border border-slate-200 shadow-sm">
             <span class="text-emerald-600 text-base font-black">✓</span> تمويلك بدون كفيل غارم
@@ -115,7 +120,7 @@
 
         <!-- Direct WhatsApp Hero CTA -->
         <div class="pt-4 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
-          <a href="https://wa.me/966590208280?text=السلام%20عليكم،%20أرغب%20في%20معرفة%20شروط%20التمويل%20بدون%20كفيل" 
+          <a href="https://wa.me/966595825390?text=السلام%20عليكم،%20أرغب%20في%20معرفة%20شروط%20التمويل%20بدون%20كفيل" 
              onclick="trackLead('hero_whatsapp_btn')"
              class="pulse-btn w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-500 text-white font-black px-8 py-4 rounded-2xl text-base shadow-xl active:scale-95 transition">
             <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
@@ -130,8 +135,14 @@
       <!-- Left Lead Form Column -->
       <div id="quote-form" class="lg:col-span-5">
         <div class="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xl shadow-slate-200/50 relative overflow-hidden">
-          <div class="space-y-2 mb-5 text-right">
-            <h3 class="text-xl font-black text-slate-900">قدّم طلبك الآن بدون كفيل</h3>
+          
+          <div class="flex items-center justify-between mb-4 border-b border-slate-100 pb-3">
+            <img src="logo.png" alt="شعار نور الفجر" class="h-9 w-auto object-contain">
+            <span class="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-lg">طلب فوري بدون كفيل</span>
+          </div>
+
+          <div class="space-y-1 mb-5 text-right">
+            <h3 class="text-lg font-black text-slate-900">قدّم طلبك الآن عبر نور الفجر</h3>
             <p class="text-xs text-slate-500">املأ البيانات وسيقوم مستشارك بمراجعة الشروط المناسبة لك فوراً.</p>
           </div>
 
@@ -239,7 +250,7 @@
             تمويل بدون كفيل لتلبية الاحتياجات الشخصية والعائلية بمبالغ ميسرة وأقساط مريحة تناسب دخلك.
           </p>
         </div>
-        <a href="https://wa.me/966590208280?text=السلام%20عليكم،%20أرغب%20في%20طلب%20تمويل%20شخصي%20بدون%20كفيل" 
+        <a href="https://wa.me/966595825390?text=السلام%20عليكم،%20أرغب%20في%20طلب%20تمويل%20شخصي%20بدون%20كفيل" 
            onclick="trackLead('srv_personal_whatsapp')"
            class="mt-5 w-full inline-flex items-center justify-center gap-2 bg-slate-100 hover:bg-emerald-600 hover:text-white text-emerald-800 font-bold text-xs py-2.5 rounded-xl transition">
           <span>اطلب التفاصيل عبر واتساب</span>
@@ -256,7 +267,7 @@
             حلول تخفيف الأقساط وترتيب المديونيات وإعادة التمويل بطرق نظامية تساعدك على توفير سيولة جديدة.
           </p>
         </div>
-        <a href="https://wa.me/966590208280?text=السلام%20عليكم،%20أرغب%20في%20استشارة%20سداد%20التزامات%20وتخفيف%20أقساط" 
+        <a href="https://wa.me/966595825390?text=السلام%20عليكم،%20أرغب%20في%20استشارة%20سداد%20التزامات%20وتخفيف%20أقساط" 
            onclick="trackLead('srv_debts_whatsapp')"
            class="mt-5 w-full inline-flex items-center justify-center gap-2 bg-slate-100 hover:bg-amber-500 hover:text-white text-amber-800 font-bold text-xs py-2.5 rounded-xl transition">
           <span>اطلب التفاصيل عبر واتساب</span>
@@ -273,7 +284,7 @@
             حلول تمويل المركبات الجديدة والمستعملة بدفعات أولى ميسرة وبدون تعقيدات في الشروط.
           </p>
         </div>
-        <a href="https://wa.me/966590208280?text=السلام%20عليكم،%20أرغب%20في%20الاستفسار%20عن%20تمويل%20سيارة" 
+        <a href="https://wa.me/966595825390?text=السلام%20عليكم،%20أرغب%20في%20الاستفسار%20عن%20تمويل%20سيارة" 
            onclick="trackLead('srv_cars_whatsapp')"
            class="mt-5 w-full inline-flex items-center justify-center gap-2 bg-slate-100 hover:bg-teal-600 hover:text-white text-teal-800 font-bold text-xs py-2.5 rounded-xl transition">
           <span>اطلب التفاصيل عبر واتساب</span>
@@ -290,7 +301,7 @@
             استشارات وحلول لاقتناء المسكن والرهن العقاري ودمج التمويل العقاري مع الشخصي.
           </p>
         </div>
-        <a href="https://wa.me/966590208280?text=السلام%20عليكم،%20أرغب%20في%20استشارة%20تمويل%20عقاري" 
+        <a href="https://wa.me/966595825390?text=السلام%20عليكم،%20أرغب%20في%20استشارة%20تمويل%20عقاري" 
            onclick="trackLead('srv_realestate_whatsapp')"
            class="mt-5 w-full inline-flex items-center justify-center gap-2 bg-slate-100 hover:bg-emerald-600 hover:text-white text-emerald-800 font-bold text-xs py-2.5 rounded-xl transition">
           <span>اطلب التفاصيل عبر واتساب</span>
@@ -327,7 +338,7 @@
       </div>
 
       <div class="mt-8">
-        <a href="https://wa.me/966590208280?text=السلام%20عليكم،%20جاهز%20لمعرفة%20خيارات%20التمويل%20بدون%20كفيل" 
+        <a href="https://wa.me/966595825390?text=السلام%20عليكم،%20جاهز%20لمعرفة%20خيارات%20التمويل%20بدون%20كفيل" 
            onclick="trackLead('steps_whatsapp_cta')"
            class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-black text-xs sm:text-sm px-6 py-3 rounded-xl shadow-md transition">
           <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
@@ -367,13 +378,16 @@
     </div>
   </section>
 
-  <!-- Final CTA Banner -->
+  <!-- Final CTA Banner with Logo -->
   <section class="max-w-4xl mx-auto px-4 pb-14">
     <div class="bg-gradient-to-r from-emerald-800 via-teal-700 to-slate-900 rounded-3xl p-8 text-center space-y-4 shadow-xl text-white">
+      <div class="flex justify-center">
+        <img src="logo.png" alt="نور الفجر" class="h-12 w-auto object-contain bg-white/90 p-1.5 rounded-xl">
+      </div>
       <h3 class="text-2xl sm:text-3xl font-black">جاهز لتقديم طلبك بدون كفيل؟</h3>
       <p class="text-xs sm:text-sm text-emerald-100 max-w-lg mx-auto">تواصل مع فريق نور الفجر للخدمات عبر واتساب واستفسر عن الشروط والأقساط المتاحة لك فوراً.</p>
       <div>
-        <a href="https://wa.me/966590208280?text=السلام%20عليكم،%20أرغب%20في%20بدء%20طلب%20تمويل%20بدون%20كفيل" 
+        <a href="https://wa.me/966595825390?text=السلام%20عليكم،%20أرغب%20في%20بدء%20طلب%20تمويل%20بدون%20كفيل" 
            onclick="trackLead('bottom_banner_whatsapp')"
            class="inline-flex items-center gap-3 bg-white hover:bg-slate-100 text-emerald-800 font-black px-8 py-3.5 rounded-2xl text-base shadow-lg transition active:scale-95">
           <svg class="w-5 h-5 fill-current text-emerald-600" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
@@ -385,7 +399,7 @@
 
   <!-- Sticky Floating WhatsApp Button -->
   <aside aria-label="تواصل سريع" class="fixed bottom-6 left-6 z-50">
-    <a href="https://wa.me/966590208280?text=السلام%20عليكم،%20أرغب%20في%20استشارة%20تمويلية%20بدون%20كفيل" 
+    <a href="https://wa.me/966595825390?text=السلام%20عليكم،%20أرغب%20في%20استشارة%20تمويلية%20بدون%20كفيل" 
        onclick="trackLead('floating_pulse_whatsapp')"
        class="pulse-btn flex items-center gap-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-black px-4 sm:px-5 py-3 rounded-full shadow-2xl active:scale-95 transition">
       <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
@@ -393,14 +407,14 @@
     </a>
   </aside>
 
-  <!-- Legal Footer -->
+  <!-- Legal Footer with Logo -->
   <footer class="border-t border-slate-200 bg-white py-10 px-4 text-center text-xs text-slate-500 space-y-4">
-    <div class="max-w-4xl mx-auto space-y-2">
-      <div class="flex justify-center mb-2">
-        <img src="logo.png" alt="نور الفجر للخدمات" class="h-10 w-auto object-contain opacity-80">
+    <div class="max-w-4xl mx-auto space-y-3">
+      <div class="flex justify-center mb-1">
+        <img src="logo.png" alt="نور الفجر للخدمات" class="h-12 w-auto object-contain">
       </div>
-      <p class="font-bold text-slate-800">نور الفجر للخدمات | المملكة العربية السعودية</p>
-      <p>خدمات واستشارات ووساطة تمويلية | هاتف: +966590208280</p>
+      <p class="font-bold text-slate-800 text-sm">نور الفجر للخدمات | المملكة العربية السعودية</p>
+      <p>خدمات واستشارات ووساطة تمويلية | هاتف: +966595825390</p>
       <p class="text-[11px] leading-relaxed max-w-2xl mx-auto pt-2 text-slate-400">
         تنبيه: الخدمة مخصصة للمواطنين والمقيمين بالمملكة من عمر 18 سنة فما فوق. لا نطلب أي مبالغ أو رسوم مقدمة، والموافقة ونسبة التكلفة تحددها الجهات التمويلية وفقاً لملفك الائتماني.
       </p>
@@ -434,7 +448,7 @@
       
       // Redirect after slight delay for pixel dispatch
       setTimeout(() => {
-        window.location.href = `https://wa.me/966590208280?text=${encodedMsg}`;
+        window.location.href = `https://wa.me/966595825390?text=${encodedMsg}`;
       }, 250);
     }
   </script>
